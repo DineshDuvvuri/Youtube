@@ -30,13 +30,10 @@ To run the Website locally, follow these steps:
    
 ## Checkout Yourself :
 Webiste Link - 
-[Youtube](https://dineshduvvuri.github.io/Youtube/)
+[Youtube](https://yt-apnacollege.netlify.app/)
 
 ## ex:
-<img width="940" alt="Screenshot 2024-05-27 145437" src="https://github.com/DineshDuvvuri/Youtube/assets/152904153/66993a2f-4f55-4274-bd88-5ffe870fbf16">
-
-
-
+<img width="940" alt="Screenshot 2024-05-27 145437" src="https://github.com/DineshDuvvuri/Youtube/assets/152904153/299f1e3c-66f5-4f42-8bcc-90314f495cee">
 
 
 
