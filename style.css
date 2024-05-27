@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+h1{
+    
+    color: #e5de05;
+    font-family: 'Poppins', sans-serif;
+   
+}
+h4{
+    color: #fcf9f9;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+h1{
+    color:#e5de05;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+}
+p{
+    color: #fcf9f9;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1%;
+}
+.flex_div{
+    display: flex;
+    align-items: center;
+}
+.video-container {
+    
+    width: 100%;
+    background: #0e0e0e;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#customVideoPlayer {
+    width: 100%;
+}
+
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #0e0e0e;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav_right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav_right .user_icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav_left .menu_icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav_left .logo{
+    width: 130px;
+}
+.nav_middle .mic_icon{
+    width: 16px;
+}
+.nav_middle .search_box{
+    border: 1px solid #f0eded;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    
+}
+.nav_middle .search_box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent; /* Set initial background color */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+.search_box:focus{
+    background-color: white; /* Change background color when focused */
+}
+.nav_middle .search_box img{
+    width: 15px;
+}
+.sidebar{
+    background-color:#131212;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+    
+}
+.shortcut a img{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+.shortcut a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut a:first-child{
+    color: #ed3833;
+}
+.shortcut hr{
+    border: 0;
+    height: 1px;
+    background-color: #ed3833;
+    width: 85%;
+}
+.subscription h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscription a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscription a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small-sidbar{
+    width: 5%;   
+}
+.small-sidbar a p{
+    display: none;
+}
+.small-sidbar h3{
+    display: none;
+}
+.small-sidbar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 2% 20px 17%;
+}
+.large_container{
+    padding-left: 7%;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+.list_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.vid_list .thumbnail{
+    width: 100%;
+    border-radius: 5px;
+}
+.vid_list .flex_div{
+    align-items: flex-start;
+    margin-top: 7px;
+}
+.vid_list .flex_div img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.vid_list .flex_div .vid_info{
+     color: #5a5a5a;
+     font-size: 13px;
+}
+.vid_list .flex_div .vid_info a{
+    color: #f8f7f7;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+        .menu_icon{
+            display: none;
+        }
+        .sidebar{
+            display: none;
+        }
+        .container , .large_container{
+            padding-left: 5%;
+            padding-right: 5%;
+        } 
+        .nav_right img {
+            display: none;
+        }
+        .nav_right .user_icon{
+            display: block;
+            width: 30px;
+        }
+        .nav_middle .search_box input{
+            width: 100px;
+        }
+}
+
+
+
+
+
+
+
+
+/* Style for the like and unlike buttons */
+.like-btn, .unlike-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #777;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 0%;
+}
+
+/* Style for Font Awesome icons */
+.like-btn i, .unlike-btn i {
+    margin-right: 5px;
+    padding: 2%;
+}
+
+/* Style for the number of likes */
+.likes p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    display: inline;
+}
+
+/* Style for the comments box */
+.comments-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style for the comments section */
+.comments-section {
+    display: none; /* Hide comments section by default */
+}
+
+/* Show comments section when the class 'show-comments' is added */
+.comments-section.show-comments {
+    display: block;
+}
+
+/* Style for the show/hide comments button */
+.show-comments-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #e6ecec;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.comments-section.show-comments {
+    display: block;
+}
+/* Style for the comments section */
+.comments-section {
+    margin-top: 20px;
+}
+
+/* Style for individual comment */
+.comment {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/* Style for user profile picture */
+.comment img {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for comment text */
+.comment-text {
+    flex: 1;
+}
+
+.comment-text p {
+    margin: 0;
+}
+
+.comment-text span {
+    font-size: 12px;
+    color: #777;
+    display: block;
+}
+
+/* Style for comment text */
+.comment-text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #e1dede;
+}
+.comments-section {
+    display: none; /* Hide comments by default */
+    padding: 20px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.comment img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-text p {
+    margin: 0;
+}
+
+.comment-text span {
+    font-size: 12px;
+    color: #888;
+}
+
+.show-comments {
+    display: block !important; /* Override the display property to show comments */
+}
+
