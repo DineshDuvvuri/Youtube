@@ -16,7 +16,7 @@ Users can access various videos related to courses, lectures, or other education
 
 ## Activities and Tasks:
 - Users can navigate through the platform using the navigation bar and sidebar to explore different sections like Home, Explore, Subscription, Library, History, and more.
-- They can search for specific content using the search box or explore recommended videos.
+- They can search for specific content using the search box.
 - Users can watch videos by clicking on thumbnails, which redirect them to the respective video pages.
 - Interaction options include liking/disliking videos and commenting on them. 
   
@@ -30,10 +30,10 @@ To run the Website locally, follow these steps:
    
 ## Checkout Yourself :
 Webiste Link - 
-[Youtube](https://yt-apnacollege.netlify.app/)
+[Youtube](https://d-youtube.netlify.app/)
 
 ## ex:
-<img width="940" alt="Screenshot 2024-05-27 145437" src="https://github.com/DineshDuvvuri/Youtube/assets/152904153/299f1e3c-66f5-4f42-8bcc-90314f495cee">
+<img width="943" alt="Screenshot 2024-05-29 105357" src="https://github.com/DineshDuvvuri/Youtube/assets/152904153/71b6e51c-8f72-4454-b7a7-4f856682e2a8">
 
 
 
